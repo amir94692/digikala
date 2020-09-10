@@ -1,0 +1,262 @@
+
+@font-face {
+    font-family:'Parastoo';
+    src: url('../font/Parastoo.eot') format('eot'),
+         url('../font/Parastoo.woff') format('woff'),
+         url('../font/Parastoo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .container{
+      height: 570px;
+  }
+
+  .col-12{
+      height: 0px; 
+      
+  }
+  .card{
+    box-shadow: 0 3px 12px 0 #aaaaaa;
+    width: 380px;   
+}
+  .card-header{
+      height: 60px;
+  }
+  .card-body{
+      height: 350px;
+  }
+  .card-footer{
+      height: 80px;
+  }
+  #card-footer{
+      background-color:rgb(245, 253, 240);
+  }
+.col-lg-6 > a:nth-child(1){
+    font-family: Eras Demi ITC;
+    font-size: 43px;
+    color: rgba(0, 0, 0, 0.637);
+    font-weight: bolder;
+    text-decoration: none;  
+}
+.col-lg-6 > a:nth-child(2){
+    font-family: Eras Demi ITC;
+    font-size: 43px;
+    color: rgba(255, 0, 0, 0.527);
+    font-weight: bolder;
+    text-decoration: none;
+}
+.card-header>p{
+    font-family: Parastoo;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(101, 101, 101);
+}
+.card-body>p{
+    font-family: Parastoo;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(101, 101, 101);
+    position: relative;
+    right: 8px;
+
+}
+#Inputemail{
+    outline: none;
+    width: 330px;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 50px;
+    /* position: relative;
+    right: 20px; */
+}
+#Divinputs>input::placeholder{
+    direction: rtl;
+    font-family: Parastoo;
+    font-weight: bold;
+    color: rgb(101, 101, 101);;
+    font-size: 12px;
+    position: relative;
+    bottom: 3px;
+    right: 60px;
+}
+#Capa_1{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 130px;
+    bottom: 44px;
+    fill:rgb(101, 101, 101);;
+}
+#Inputemail1{
+    outline: none;
+    width: 330px;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 50px;
+    position: relative; 
+   top: -25px;
+}
+#Divinputs1>input::placeholder{
+    direction: rtl;
+    font-family: Parastoo;
+    font-weight: bold;
+    color: rgb(101, 101, 101);
+    font-size: 12px;
+    position: relative;
+    bottom: 3px;
+    right: 60px;
+}
+#Capa_2{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 130px;
+    bottom: 69px;
+    fill: rgb(101, 101, 101);;
+}
+#Capa_3{
+    width: 45px;
+    height: 45px;
+    position: relative;
+    left: -20px;
+    bottom: 85px;
+    fill: whitesmoke;
+}
+div.tooltip-inner{
+    background-color: #ef5662;
+    position: relative;
+    right: 180px;
+    font-family: Parastoo;
+    max-width: 280px;
+    height: 45px;
+    padding-top: 10px;
+}
+::before{
+    position: relative;
+    right: 180px;
+}
+#Divpasswords>div>p{
+font-family: Parastoo;
+font-weight: bold;
+position: relative;
+top: -15px;
+right: 4px;
+color: rgb(101, 101, 101);
+}
+#Divpasswords a{
+font-family: Parastoo;
+font-size: 14px;
+text-decoration: none;
+color:#1ca2bd;
+position: relative;
+top: -15px;
+}
+#Divpasswords>:nth-child(2) p{
+    color:#1ca2bd;
+    position: relative;
+    top: -22px;
+    font-size: 12px;
+    
+}
+#Btn{
+    width: 340px;
+    height: 60px;
+    font-family: Parastoo;
+    font-weight: bold;
+    color: white;
+    background-color: #00BFD6;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    position: relative;
+    top: -35px;
+    right: 0px;
+}
+#Btn:hover{
+    box-shadow: 0 3px 12px 0 #00BFD6;
+}
+#Checkbox{
+    position: relative;
+    top: -65px;
+    font-family: Parstoo;
+    font-size: 18px;
+}
+div.pl-2>#Inputcheckbox{
+    width: 20px;
+    height: 20px; 
+}
+#Checkbox>div>p:nth-of-type(1) 
+{
+    font-family: Parastoo;
+    font-size: 15px;
+    color: rgb(101, 101, 101);
+    position: relative;
+    top: 1px;
+
+}
+.d-flex>div>p:nth-of-type(1){
+font-family: Parastoo;
+font-size: 14px;
+
+}
+
+.d-flex>:nth-child(2)>p{
+font-family: Parastoo;
+color:#1ca2bd;
+position: relative;
+top: -15px;
+}
+.d-flex:nth-child(2) a{
+font-family: Parastoo;
+text-decoration: none;
+color:#1ca2bd;
+font-size: 14px;
+}
+#Divregister{
+position: relative;
+top: -4px;
+right: 5px;
+}
+#Divfooter:nth-child(1)>:nth-child(1)>ul{
+    list-style-type: none;
+    
+}
+#Divfooter:nth-child(1)>:nth-child(1)>ul>li{
+    display: inline;
+    padding-right: 35px;
+}
+#Divfooter:nth-child(1)>:nth-child(1)>ul>li>a{
+    text-decoration: none;
+    font-family: Parastoo;
+    color:rgb(101, 101, 101) ;
+    font-size: 14px;
+}
+#Divfooter>div:nth-child(2)>p{
+    font-family: Parastoo;
+    color:#b0b0b0 ;
+    font-size: 14px;
+    position: relative;
+    top: 30px;
+}
+#Divfooter>div:nth-child(3)>p{
+    color:#b0b0b0 ;
+    font-size: 14px;
+    position: relative;
+    top: 50px;
+}
+/* #Container-footer{
+    height: 250px;
+} */
+@media all and (max-width:1360px){
+    #Textfooter{
+       text-align: center;
+    }
+}
+@media  all and (max-width:610px){
+    #List4>a{
+         position: relative; 
+        left: -30px;
+        display: flex;
+        justify-content: center;
+    }
+}
